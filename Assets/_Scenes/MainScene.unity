@@ -1451,6 +1451,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437006, guid: ebbfccceb49158e4bb39262af1350fd1, type: 3}
   m_PrefabInstance: {fileID: 115042888}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &124387659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124387660}
+  m_Layer: 0
+  m_Name: Decal Graffiti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124387660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124387659}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.204712, y: 2.5837674, z: -8.884544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 373000468}
+  m_Father: {fileID: 1227734335}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &127547220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3781,6 +3812,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
   m_PrefabInstance: {fileID: 371953073}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &373000467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373000468}
+  - component: {fileID: 373000469}
+  m_Layer: 0
+  m_Name: Decal Projector (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373000468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373000467}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.2584343, y: -3.630834, z: 4.9819336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 124387660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &373000469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373000467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 2
+  m_Material: {fileID: 2100000, guid: 19ba71c01a2d4b4488401b9ba97f93f1, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 0.646137}
+  m_UVBias: {x: 0, y: 0.17475893}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2.2596338, y: 0.96125126, z: 1}
+  m_FadeFactor: 1
 --- !u!1001 &374414702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7197,6 +7284,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 472182, guid: aa6c6405afc374949a106427390a4526, type: 3}
   m_PrefabInstance: {fileID: 644876388}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &644914135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 644914136}
+  - component: {fileID: 644914137}
+  m_Layer: 0
+  m_Name: Decal Projector (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &644914136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644914135}
+  m_LocalRotation: {x: 0.061338454, y: -0.70444137, z: -0.061338436, w: 0.70444137}
+  m_LocalPosition: {x: 32.57, y: 3.457, z: 5.914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898550527}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -9.953}
+--- !u!114 &644914137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644914135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 2
+  m_Material: {fileID: 2100000, guid: 19ba71c01a2d4b4488401b9ba97f93f1, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 0.525331}
+  m_UVBias: {x: 0, y: 0.22323088}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2.4774475, y: 0.97390795, z: 1}
+  m_FadeFactor: 1
 --- !u!1001 &645235125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14375,6 +14518,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1449659136}
+  - {fileID: 124387660}
   - {fileID: 1551317322}
   - {fileID: 2047217386}
   m_Father: {fileID: 747354185}
@@ -16275,6 +16419,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1435598841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1435598842}
+  - component: {fileID: 1435598843}
+  m_Layer: 0
+  m_Name: Decal Projector (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1435598842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435598841}
+  m_LocalRotation: {x: 0.061338454, y: -0.70444137, z: -0.061338436, w: 0.70444137}
+  m_LocalPosition: {x: 12.181, y: 3.584875, z: 1.4483385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898550527}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -9.953}
+--- !u!114 &1435598843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435598841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 2
+  m_Material: {fileID: 2100000, guid: 19ba71c01a2d4b4488401b9ba97f93f1, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 0.525331}
+  m_UVBias: {x: 0, y: 0.22323088}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2.4774475, y: 0.97390795, z: 1}
+  m_FadeFactor: 1
 --- !u!1001 &1438528767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18005,7 +18205,7 @@ Transform:
   - {fileID: 1893270375}
   - {fileID: 1077894197}
   m_Father: {fileID: 1227734335}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1557826314
 PrefabInstance:
@@ -20419,12 +20619,12 @@ MonoBehaviour:
   m_FadeScale: 0.9
   m_StartAngleFade: 180
   m_EndAngleFade: 180
-  m_UVScale: {x: 1, y: 1}
-  m_UVBias: {x: 0, y: 0}
+  m_UVScale: {x: 0.7251906, y: 0.8288181}
+  m_UVBias: {x: 0.10573413, y: 0.09365742}
   m_AffectsTransparency: 0
   m_DecalLayerMask: 1
   m_Offset: {x: 0, y: 0, z: 0.5}
-  m_Size: {x: 1.4063002, y: 1.3021989, z: 1}
+  m_Size: {x: 1.0198357, y: 1.0792859, z: 1}
   m_FadeFactor: 1
 --- !u!4 &1720386629
 Transform:
@@ -20434,7 +20634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720386627}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 12.284, y: 3.7160993, z: -1.6488056}
+  m_LocalPosition: {x: 12.284, y: 3.7266035, z: -1.6933441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1898550527}
@@ -22396,6 +22596,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1720386629}
+  - {fileID: 1435598842}
+  - {fileID: 644914136}
   m_Father: {fileID: 1046550979}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24029,7 +24231,7 @@ Transform:
   - {fileID: 1609482746}
   - {fileID: 1766765821}
   m_Father: {fileID: 1227734335}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2056884208
 PrefabInstance:
