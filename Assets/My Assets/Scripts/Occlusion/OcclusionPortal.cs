@@ -11,6 +11,8 @@ public class OcclusionPortal : MonoBehaviour
     public AudioSource DoorOpenSound;
     public bool Action = false;
 
+    private object myOcclusionPortal;
+
     void Start()
     {
         Instruction.SetActive(false);
@@ -43,6 +45,7 @@ public class OcclusionPortal : MonoBehaviour
         {
             if (Action == true)
             {
+                myOcclusionPortal = true;
                 Instruction.SetActive(false);
                 AnimeObject.GetComponent<Animator>().Play("DoorOpen");
                 ThisTrigger.SetActive(false);
