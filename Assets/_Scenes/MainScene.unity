@@ -5,7 +5,7 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
+    smallestOccluder: 1
     smallestHole: 0.25
     backfaceThreshold: 100
   m_SceneGUID: 00000000000000000000000000000000
@@ -355,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp_StreetHigh (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -606,6 +610,10 @@ PrefabInstance:
     - target: {fileID: 165482, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
       propertyPath: m_Name
       value: Decal_Water_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 165482, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 471222, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
       propertyPath: m_RootOrder
@@ -1047,6 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1445,6 +1457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1742,9 +1758,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1206677416}
     m_Modifications:
+    - target: {fileID: 147114, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 160692, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_Name
       value: TreeDead_Anim (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 183616, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 468968, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_RootOrder
@@ -1807,6 +1831,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2d0605e6ec085df45a8cc880bee4ef75, type: 3}
       propertyPath: m_Name
       value: Street_Manhole_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2d0605e6ec085df45a8cc880bee4ef75, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d0605e6ec085df45a8cc880bee4ef75, type: 3}
       propertyPath: m_RootOrder
@@ -2055,6 +2083,10 @@ PrefabInstance:
     - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_Name
       value: Decal_Water_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 496502, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_RootOrder
@@ -2446,6 +2478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2569,6 +2605,10 @@ PrefabInstance:
     - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
@@ -3160,6 +3200,10 @@ PrefabInstance:
     - target: {fileID: 126676, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
       propertyPath: m_Name
       value: Garbage_Set_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 126676, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 460472, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
       propertyPath: m_RootOrder
@@ -4058,6 +4102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp_StreetHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4736,6 +4784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Commercial
       objectReference: {fileID: 0}
+    - target: {fileID: 185162, guid: 39bb19adf4a871c43832d553d55bf2a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 468360, guid: 39bb19adf4a871c43832d553d55bf2a5, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5049,6 +5101,10 @@ PrefabInstance:
     - target: {fileID: 189652, guid: d1172522979e7f94aa82bfba9fa1d852, type: 3}
       propertyPath: m_Name
       value: Garbage_Set_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189652, guid: d1172522979e7f94aa82bfba9fa1d852, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 463776, guid: d1172522979e7f94aa82bfba9fa1d852, type: 3}
       propertyPath: m_RootOrder
@@ -5605,6 +5661,10 @@ PrefabInstance:
     - target: {fileID: 165482, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
       propertyPath: m_Name
       value: Decal_Water_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 165482, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 471222, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
       propertyPath: m_RootOrder
@@ -6392,6 +6452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Manhole_B
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6453,6 +6517,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
       propertyPath: m_Name
       value: Street_Manhole_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
       propertyPath: m_RootOrder
@@ -6702,6 +6770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal_Water_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 20b8be11b075fd54d9aa08cbe1e6cef3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 20b8be11b075fd54d9aa08cbe1e6cef3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6834,6 +6906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6913,6 +6989,10 @@ PrefabInstance:
     - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_Name
       value: Decal_Water_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 496502, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_RootOrder
@@ -7103,6 +7183,10 @@ PrefabInstance:
     - target: {fileID: 142414, guid: 0ededfa4a9941d341bc6eb1b79482e42, type: 3}
       propertyPath: m_Name
       value: StreetSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 142414, guid: 0ededfa4a9941d341bc6eb1b79482e42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 456858, guid: 0ededfa4a9941d341bc6eb1b79482e42, type: 3}
       propertyPath: m_RootOrder
@@ -8472,6 +8556,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
@@ -10410,6 +10498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10596,6 +10688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cardboard_Box_A
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 23ff2a3e65a46ab4a83690f6dfbab154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 23ff2a3e65a46ab4a83690f6dfbab154, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10709,6 +10805,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
@@ -10918,6 +11018,10 @@ PrefabInstance:
     - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Name
       value: Lamp_StreetHigh (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
@@ -12918,9 +13022,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1206677416}
     m_Modifications:
+    - target: {fileID: 147114, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 160692, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_Name
       value: TreeDead_Anim
+      objectReference: {fileID: 0}
+    - target: {fileID: 183616, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 468968, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_RootOrder
@@ -12983,6 +13095,10 @@ PrefabInstance:
     - target: {fileID: 111644, guid: 755779b72c8350c4ea044b3f5781cd07, type: 3}
       propertyPath: m_Name
       value: Decal_Water_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 111644, guid: 755779b72c8350c4ea044b3f5781cd07, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 755779b72c8350c4ea044b3f5781cd07, type: 3}
       propertyPath: m_RootOrder
@@ -13275,6 +13391,10 @@ PrefabInstance:
     - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
@@ -14234,6 +14354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garbage_Set_A
       objectReference: {fileID: 0}
+    - target: {fileID: 126676, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 460472, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14300,6 +14424,10 @@ PrefabInstance:
     - target: {fileID: 147914, guid: 64c6d694922c9334b8d3b993d83e1996, type: 3}
       propertyPath: m_Name
       value: Door_Metal_Chainlink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 147914, guid: 64c6d694922c9334b8d3b993d83e1996, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 476242, guid: 64c6d694922c9334b8d3b993d83e1996, type: 3}
       propertyPath: m_RootOrder
@@ -15247,6 +15375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp_StreetHigh (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -15412,6 +15544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15532,9 +15668,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1206677416}
     m_Modifications:
+    - target: {fileID: 147114, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 160692, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_Name
       value: TreeDead_Anim (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 183616, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 468968, guid: 8bd891989f3c5f247906b18f384c1ee6, type: 3}
       propertyPath: m_RootOrder
@@ -15827,6 +15971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_Metal_Chainlink
       objectReference: {fileID: 0}
+    - target: {fileID: 147914, guid: 64c6d694922c9334b8d3b993d83e1996, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 476242, guid: 64c6d694922c9334b8d3b993d83e1996, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -16080,6 +16228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -16288,6 +16440,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
       propertyPath: m_Name
       value: Street_Manhole_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8a106f775d150244ba6f1998d87b92ee, type: 3}
       propertyPath: m_RootOrder
@@ -16723,6 +16879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -16826,6 +16986,10 @@ PrefabInstance:
     - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
@@ -18220,6 +18384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_On_Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 145314, guid: f9f38d3f0b4262247b612baf308c5db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 417732, guid: f9f38d3f0b4262247b612baf308c5db0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18776,6 +18944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal_Water_A
       objectReference: {fileID: 0}
+    - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
+      objectReference: {fileID: 0}
     - target: {fileID: 496502, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -19031,6 +19203,10 @@ PrefabInstance:
     - target: {fileID: 150572, guid: e86547fc1095dda428fbd0ed95da1d00, type: 3}
       propertyPath: m_Name
       value: Street_Manhole_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 150572, guid: e86547fc1095dda428fbd0ed95da1d00, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 499042, guid: e86547fc1095dda428fbd0ed95da1d00, type: 3}
       propertyPath: m_RootOrder
@@ -20950,6 +21126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign_China_Hanging
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c76561b67610ec642833d95769e2f96c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c76561b67610ec642833d95769e2f96c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21073,6 +21253,10 @@ PrefabInstance:
     - target: {fileID: 132436, guid: 421fecf72eee54a419c700ecee4c8e95, type: 3}
       propertyPath: m_Name
       value: Wall_B_Brick_6x (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132436, guid: 421fecf72eee54a419c700ecee4c8e95, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 490532, guid: 421fecf72eee54a419c700ecee4c8e95, type: 3}
       propertyPath: m_RootOrder
@@ -21507,6 +21691,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 20b8be11b075fd54d9aa08cbe1e6cef3, type: 3}
       propertyPath: m_Name
       value: Decal_Water_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 20b8be11b075fd54d9aa08cbe1e6cef3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 20b8be11b075fd54d9aa08cbe1e6cef3, type: 3}
       propertyPath: m_RootOrder
@@ -21943,6 +22131,10 @@ PrefabInstance:
     - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Name
       value: Lamp_StreetHigh (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
@@ -22653,6 +22845,10 @@ PrefabInstance:
     - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Name
       value: Lamp_StreetHigh (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157570, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_RootOrder
@@ -24090,6 +24286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal_Water_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 165482, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
+      objectReference: {fileID: 0}
     - target: {fileID: 471222, guid: 35a7f45ffacd2424b9340a4bcec57416, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -24285,6 +24485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garbage_Set_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 143450, guid: 44b856cefc0c8fb4a874bad8eaa2c1f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 438328, guid: 44b856cefc0c8fb4a874bad8eaa2c1f3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -24426,6 +24630,10 @@ PrefabInstance:
     - target: {fileID: 6246349424893588973, guid: 9e8141c45faea8949abd9cfc1ba3d830, type: 3}
       propertyPath: m_Name
       value: Newspaper (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246349424893588973, guid: 9e8141c45faea8949abd9cfc1ba3d830, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e8141c45faea8949abd9cfc1ba3d830, type: 3}
@@ -24844,6 +25052,10 @@ PrefabInstance:
     - target: {fileID: 112566, guid: 2d1f73bf44f93794ab3a45a9740b126b, type: 3}
       propertyPath: m_Name
       value: Garbage_Set_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 112566, guid: 2d1f73bf44f93794ab3a45a9740b126b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 446634, guid: 2d1f73bf44f93794ab3a45a9740b126b, type: 3}
       propertyPath: m_RootOrder
@@ -25336,6 +25548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garbage_Set_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 126676, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 460472, guid: d39d3ea895838f84aa256f8aba9bf2d9, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -25584,6 +25800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
+      objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -25831,6 +26051,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_1x
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2459b6261d9c43419567916893f4480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2459b6261d9c43419567916893f4480, type: 3}
       propertyPath: m_RootOrder
@@ -27707,6 +27931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal_Water_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 111644, guid: 755779b72c8350c4ea044b3f5781cd07, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
+      objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 755779b72c8350c4ea044b3f5781cd07, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -27877,6 +28105,10 @@ PrefabInstance:
     - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_Name
       value: Fence_MetalChainlink_2x (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 103482, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 482606, guid: ea431aa4c755fe94da17a834784f04ca, type: 3}
       propertyPath: m_RootOrder
