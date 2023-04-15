@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1007.041, g: 1155.0869, b: 2167.8438, a: 1}
+  m_IndirectSpecularColor: {r: 1007.041, g: 1155.0791, b: 2167.8438, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13001,6 +13001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal_Water_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 141472, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967292
+      objectReference: {fileID: 0}
     - target: {fileID: 496502, guid: e6800def639253c47933e9c0ebd4d687, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -24341,11 +24345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172699, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: field of view
-      value: 50.046806
+      value: 19.455156
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172699, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_FocalLength
-      value: 25.706665
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172699, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_projectionMatrixMode
